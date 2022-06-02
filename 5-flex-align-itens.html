@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex align</title>
+
+    <style>
+        .container {
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .center {
+                align-items: center;
+            }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .start {
+            align-items: flex-start;
+        }
+
+        .end {
+            align-items: flex-end;
+        }
+
+        
+
+
+
+        .flex {
+            flex: 1;
+        }
+        .iten {
+
+            background-color: blueviolet ;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        .baseline {
+            align-items: baseline;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Center</h2>
+    <section class="container center flex">
+        <div class="iten">Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+    <h2>Stretch</h2>
+    <section class="container stretch flex">
+        <div class="iten">Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+    <h2>Flex start</h2>
+    <section class="container start flex">
+        <div class="iten">Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+    <h2>Flex end</h2>
+    <section class="container end flex">
+        <div class="iten">Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+
+    <h2>Base Line</h2>
+    <section class="container baseline">
+        <div class="iten"><br>Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+
+
+    <h1>Orientação por coluna</h1>
+
+    <h2>Flex start</h2>
+    <section class="container start flex column">
+        <div class="iten">Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+    <h2>Flex end</h2>
+    <section class="container end flex column">
+        <div class="iten">Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+
+
+    <h2>Base Line</h2>
+    <section class="container baseline column">
+        <div class="iten"><br>Item 1</div>
+        <div class="iten">Lorem lasum dolor it amet no</div>
+        <div class="iten">item 3</div>
+    </section>
+</body>
+</html>

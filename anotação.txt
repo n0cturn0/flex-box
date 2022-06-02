@@ -1,0 +1,41 @@
+Flex-wrap - define se os itens devem ou não quebrar alinha
+no-wrap nao permite a quebra de linha
+wrap - permite a quebra de linha
+wrap-reverse quebra a linha para cima
+
+Flex-Flow é um atalho para as propriedades flex-direction e flex-wrap
+O seu uso não é comum, mantendo o padrão do flex-wrap que é O
+nowrap
+
+Justify  content
+
+Se encarrega de alinhar e também definir espaço entre eles.
+flex-start inicio do container
+flex-end final do container
+center ao centro do container
+space-between espaçamento igual entre os elementos
+space-around os espaçamento do meio são duas vezes maior que
+o inicial e final
+
+
+Align itens
+trata do alinhamento do itens de acordo com eixo do container, permite
+alinhamento no eixo vertical
+tipos: center alimento no centro
+stretch padrão 
+flex-start alinha no inicio  dos itens 
+flex-end alinha no final dos itens 
+baseline alimento de acordo com a linha base da tipografia dos itens
+
+
+align content
+Responsável por tratar o alinhamento das linha do container em relação 
+ao eixo vertical do container
+center centralizado
+stretch é o padrão e os flex crescem igualmente
+start alinha  no inicio do itens
+end  alinha no final dos itens
+space-between cria espaçamento igual entre os elemento
+space-around espaçamento duas vezes maior
+s
+
